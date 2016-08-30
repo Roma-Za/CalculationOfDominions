@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zapriy.roman.calculationofdominions.StartActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_margin="20dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_save"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:onClick="newOnClick" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/load"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:onClick="loadOnClick" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:onClick="deleteOnClick" />
+    </LinearLayout>
+</RelativeLayout>
